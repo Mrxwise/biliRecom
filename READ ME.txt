@@ -1,0 +1,24 @@
+前提：安装python3
+
+1、安装pip
+在cmd中输入以下命令：
+
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python get-pip.py
+若还无法成功则在Software_support中解压pip文件，并双击setup.py
+
+若需要升级pip install pip update
+
+2、安装包
+在pip已安装的情况下，在cmd输入下列指令来安装需要的文件
+
+pip install requests
+pip install pillow
+pip install pandas
+pip install numpy
+pip install urllib3
+pip install sklearn
+pip install selenium(如果不行，从压缩包内selenium-3.7.0安装)
+pip install pillow
+
+3、运行更新或在页面中查看需要安装chrome浏览器.
